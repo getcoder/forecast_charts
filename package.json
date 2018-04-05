@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@khanacademy/react-multi-select": "^0.2.6",
+    "moment": "^2.22.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-datepicker": "^1.4.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-select": "^1.2.1",
+    "react-selectize": "^3.0.1",
+    "react-super-select": "^1.0.14",
+    "recharts": "^1.0.0-beta.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

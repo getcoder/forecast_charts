@@ -1,0 +1,79 @@
+.charts-list {
+    display: flex;
+  flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 95%;
+}
+
+.chart {
+    float: left;
+    max-width: 45%;
+    height: auto;
+    margin: 2%;
+}
+
+.container-title{
+    text-align: left;
+}
+
+.title {
+    /* left: 1%; */
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(69, 173, 233);
+    border-radius: 10px;
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        font-size: 16px;
+    }
+    .chart {
+        max-width: 96%; 
+        height: auto;
+        margin: 2%;
+    }
+}
+
+.container-inline {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+    /* padding: 1em; */
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+.i {
+    /* width: 5em;
+  height: 2em; */
+  /* background-color: blue; */
+}
+.from{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.from input{
+    margin-left: 7%;
+    max-width: 110px;
+}
+.to{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.to input{
+    margin-left: 7%;
+    max-width: 110px;
+}
+
+.select{
+  max-width: 50%;
+}
